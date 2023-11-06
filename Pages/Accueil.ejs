@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="hero">
+        <h1>L'application Web est disponible uniquement pendant les heures ouvrables :</p>
+            <p>
+                Du lundi au vendredi, de <b>
+                    <%= heureConnectee.lundi.debut %>
+                </b> à <b>
+                    <%= heureConnectee.vendredi.fin %>
+                </b>.
+            </p>
+        </h1>
+        <nav>
+            <ul><a href="/">ACCUEIL</a></ul>
+            <ul><a href="/Service">SERVICES</a></ul>
+            <ul><a href="/Contact">CONTACT</a></ul>
+        </nav>
+    </div>
+    <div>
+
+        <h1>welcome</h1>
+
+        <marquee behavior="" direction="">
+            <h1>GOMYCODE-SENEGAL</h1>
+        </marquee>
+
+    </div>
+    <div>
+        <img src="/logo.jpg" alt="" style="width: 400px; margin-left: 40% ;">
+    </div>
+</body>
+
+</html>
